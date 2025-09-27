@@ -1,0 +1,60 @@
+ body{
+        background-color: darkgrey;
+    }
+    .register-div{
+        font-family: sans-serif;
+        background: linear-gradient(45deg,rgb(166,0,255),deeppink);
+        width: 300px;
+        color: white;
+        padding: 15px;
+        margin: 50px auto;
+        box-shadow: 0 0 5px black;
+        border-radius: 10px;
+    }
+    .register-div h2{
+        font-size: 30px;
+        text-align: center;
+        margin: 10px;
+    }
+    .form-group label{
+        display: block;
+        margin: 10px 0;
+
+    }
+    .form-control{
+        font-size: 10px;
+        height: 35px;
+        outline: none;
+        border: none;
+        width: 290px;
+    }
+    .submit-btn{
+        margin: 15px 0;
+        background: linear-gradient(45deg,blue,deeppink);
+        color: whitesmoke;
+        font-size: 18px;
+        padding: 12px 25px;
+        width: 290px;
+        border: none;
+        box-shadow: 0 0 10px black;
+
+    }
+    .fa-user-circle{
+        font-size: 80px;
+        display: block;
+        text-align: center;
+        border: 10px solid deeppink;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        margin: auto;
+        margin-top: -50px;
+        background-color: rgb(242, 42, 149);
+        box-shadow: 0 0 5px black;
+    }
+    input{
+        border-radius: 10px;
+    }
+    select{
+        border-radius: 10px;
+    }
